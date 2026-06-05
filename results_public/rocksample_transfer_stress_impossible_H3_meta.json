@@ -1,0 +1,39 @@
+{
+  "instance": "rocksample_transfer_stress_impossible_H3",
+  "family": "RockSample",
+  "actions": [
+    "check_r1",
+    "check_r2",
+    "sample_r1",
+    "sample_r2",
+    "move"
+  ],
+  "horizon": 3,
+  "scenarios": [
+    {
+      "name": "R1_good",
+      "p": 0.25,
+      "kind": "r1"
+    },
+    {
+      "name": "R2_good",
+      "p": 0.25,
+      "kind": "r2"
+    },
+    {
+      "name": "Both_good",
+      "p": 0.25,
+      "kind": "r1+r2"
+    },
+    {
+      "name": "None_good",
+      "p": 0.25,
+      "kind": ""
+    }
+  ],
+  "budgets": {
+    "prob_catastrophic": 0.0,
+    "prob_degraded": 0.0
+  },
+  "notes": "Forced catastrophic failure makes the oracle infeasible."
+}

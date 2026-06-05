@@ -1,0 +1,83 @@
+{
+  "instance": "sysadmin_transfer_easy",
+  "variant": "easy",
+  "horizon": 6,
+  "actions": [
+    "noop",
+    "reboot_A",
+    "reboot_B",
+    "reboot_C",
+    "reboot_D"
+  ],
+  "num_sequences": 15625,
+  "bounds": {
+    "prob_catastrophic": 0.25,
+    "prob_degraded": 0.5,
+    "prob_shortage": 0.5
+  },
+  "lambdas": {
+    "prob_catastrophic": 2000000.0,
+    "prob_degraded": 500000.0,
+    "prob_shortage": 500000.0
+  },
+  "scenarios": [
+    {
+      "kind": "easy",
+      "v": 0,
+      "shock": 2,
+      "load": "low"
+    },
+    {
+      "kind": "easy",
+      "v": 0,
+      "shock": 2,
+      "load": "high"
+    },
+    {
+      "kind": "easy",
+      "v": 1,
+      "shock": 2,
+      "load": "low"
+    },
+    {
+      "kind": "easy",
+      "v": 1,
+      "shock": 2,
+      "load": "high"
+    },
+    {
+      "kind": "easy",
+      "v": 2,
+      "shock": 2,
+      "load": "low"
+    },
+    {
+      "kind": "easy",
+      "v": 2,
+      "shock": 2,
+      "load": "high"
+    },
+    {
+      "kind": "easy",
+      "v": 3,
+      "shock": 2,
+      "load": "low"
+    },
+    {
+      "kind": "easy",
+      "v": 3,
+      "shock": 2,
+      "load": "high"
+    }
+  ],
+  "probs": [
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}

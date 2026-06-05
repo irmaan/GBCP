@@ -1,0 +1,28 @@
+{
+  "instance": "tiger_transfer_easy_H4",
+  "family": "Tiger",
+  "actions": [
+    "listen",
+    "open_left",
+    "open_right",
+    "wait"
+  ],
+  "horizon": 4,
+  "scenarios": [
+    {
+      "name": "TL",
+      "p": 0.5,
+      "kind": "tiger_left"
+    },
+    {
+      "name": "TR",
+      "p": 0.5,
+      "kind": "tiger_right"
+    }
+  ],
+  "budgets": {
+    "prob_catastrophic": 0.55,
+    "prob_degraded": 0.75
+  },
+  "notes": "No-observation Tiger-style easy transfer."
+}

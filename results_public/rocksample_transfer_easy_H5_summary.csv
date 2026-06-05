@@ -1,0 +1,2 @@
+instance,family,num_sequences,horizon,num_actions,num_scenarios,feasible_fraction,deterministically_feasible,governed_mean,governed_seq,oracle_mean,oracle_feasible,blind_tax_ratio,budgets_json,oracle_event_rates_json,notes
+rocksample_transfer_easy_H5,RockSample,3125,5,5,4,0.83584,True,160.0,sample_r1|move|move|move|move,52.5,True,3.0476190476190474,"{""prob_catastrophic"": 0.5, ""prob_degraded"": 0.75, ""prob_shortage"": 0.75}","{""prob_catastrophic"": 0.0, ""prob_degraded"": 0.25, ""prob_shortage"": 0.0}",No-observation RockSample-style easy transfer.

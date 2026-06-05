@@ -1,0 +1,37 @@
+{
+  "instance": "sysadmin_transfer_stress_unobservable",
+  "variant": "stress_unobservable",
+  "horizon": 3,
+  "actions": [
+    "noop",
+    "reboot_A",
+    "reboot_B",
+    "reboot_C",
+    "reboot_D"
+  ],
+  "num_sequences": 125,
+  "bounds": {
+    "prob_catastrophic": 0.0,
+    "prob_degraded": 0.0,
+    "prob_shortage": 0.0
+  },
+  "lambdas": {
+    "prob_catastrophic": 2000000.0,
+    "prob_degraded": 1000000.0,
+    "prob_shortage": 1000000.0
+  },
+  "scenarios": [
+    {
+      "kind": "stress_unobservable",
+      "v": 0
+    },
+    {
+      "kind": "stress_unobservable",
+      "v": 2
+    }
+  ],
+  "probs": [
+    0.5,
+    0.5
+  ]
+}

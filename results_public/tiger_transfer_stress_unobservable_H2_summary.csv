@@ -1,0 +1,2 @@
+instance,family,num_sequences,horizon,num_actions,num_scenarios,feasible_fraction,deterministically_feasible,governed_mean,governed_seq,oracle_mean,oracle_feasible,blind_tax_ratio,budgets_json,oracle_event_rates_json,notes
+tiger_transfer_stress_unobservable_H2,Tiger,16,2,4,2,0.0,False,120.0,listen|listen,0.0,False,inf,"{""prob_catastrophic"": 0.0, ""prob_degraded"": 0.0}","{""prob_catastrophic"": 0.0, ""prob_degraded"": 1.0}","Oracle can open the safe door, but blind commitment cannot know which door is safe."

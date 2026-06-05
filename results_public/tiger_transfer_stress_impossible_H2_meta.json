@@ -1,0 +1,28 @@
+{
+  "instance": "tiger_transfer_stress_impossible_H2",
+  "family": "Tiger",
+  "actions": [
+    "listen",
+    "open_left",
+    "open_right",
+    "wait"
+  ],
+  "horizon": 2,
+  "scenarios": [
+    {
+      "name": "TL",
+      "p": 0.5,
+      "kind": "tiger_left"
+    },
+    {
+      "name": "TR",
+      "p": 0.5,
+      "kind": "tiger_right"
+    }
+  ],
+  "budgets": {
+    "prob_catastrophic": 0.0,
+    "prob_degraded": 0.0
+  },
+  "notes": "Forced hidden failure makes even the oracle infeasible."
+}

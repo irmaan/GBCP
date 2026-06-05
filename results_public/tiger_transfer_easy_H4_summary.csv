@@ -1,0 +1,2 @@
+instance,family,num_sequences,horizon,num_actions,num_scenarios,feasible_fraction,deterministically_feasible,governed_mean,governed_seq,oracle_mean,oracle_feasible,blind_tax_ratio,budgets_json,oracle_event_rates_json,notes
+tiger_transfer_easy_H4,Tiger,256,4,4,2,0.2578125,True,540.0,open_left|open_left|open_left|open_left,0.0,True,inf,"{""prob_catastrophic"": 0.55, ""prob_degraded"": 0.75}","{""prob_catastrophic"": 0.0, ""prob_degraded"": 0.0}",No-observation Tiger-style easy transfer.

@@ -1,0 +1,2 @@
+instance,family,num_sequences,horizon,num_actions,num_scenarios,feasible_fraction,deterministically_feasible,governed_mean,governed_seq,oracle_mean,oracle_feasible,blind_tax_ratio,budgets_json,oracle_event_rates_json,notes
+tiger_transfer_hard_H4,Tiger,256,4,4,2,0.0,False,560.0,listen|listen|open_left|open_left,0.0,True,inf,"{""prob_catastrophic"": 0.2, ""prob_degraded"": 0.45}","{""prob_catastrophic"": 0.0, ""prob_degraded"": 0.0}",No-observation Tiger-style hard transfer.

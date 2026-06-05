@@ -1,0 +1,40 @@
+{
+  "instance": "rocksample_transfer_easy_H5",
+  "family": "RockSample",
+  "actions": [
+    "check_r1",
+    "check_r2",
+    "sample_r1",
+    "sample_r2",
+    "move"
+  ],
+  "horizon": 5,
+  "scenarios": [
+    {
+      "name": "R1_good",
+      "p": 0.25,
+      "kind": "r1"
+    },
+    {
+      "name": "R2_good",
+      "p": 0.25,
+      "kind": "r2"
+    },
+    {
+      "name": "Both_good",
+      "p": 0.25,
+      "kind": "r1+r2"
+    },
+    {
+      "name": "None_good",
+      "p": 0.25,
+      "kind": ""
+    }
+  ],
+  "budgets": {
+    "prob_catastrophic": 0.5,
+    "prob_degraded": 0.75,
+    "prob_shortage": 0.75
+  },
+  "notes": "No-observation RockSample-style easy transfer."
+}
