@@ -1,0 +1,9 @@
+instance,baseline_type,baseline_sequence,budget_preserved,lossscale_preserved,eventweight_preserved
+bfsp_hard,deterministic_feasible,scheduled_heat|scheduled_heat|scheduled_heat|scheduled_heat,3/3,3/3,---
+bcst_hard,deterministic_feasible,standard|standard|standard|standard,3/3,3/3,---
+bged_hard,deterministic_feasible,low_vector|low_vector|low_vector|targeted_vector,3/3,3/3,---
+bsp_hard,deterministic_feasible,standard|standard|standard|strong,3/3,3/3,---
+bfsp_stress_unobservable,deterministic_infeasible,overprocess|overprocess,3/3,3/3,1/2
+bcst_stress_unobservable,deterministic_infeasible,whole_region|whole_region,3/3,3/3,1/2
+bged_stress_unobservable,deterministic_infeasible,vector_A|vector_B,3/3,3/3,2/3
+bsp_stress_unobservable,deterministic_infeasible,cycle_A|cycle_A,3/3,3/3,1/3
