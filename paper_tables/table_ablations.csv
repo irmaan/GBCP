@@ -1,0 +1,15 @@
+best_unconstrained_feasible,best_unconstrained_mean,distinct_selector_choices,feasible_fraction,governance_changes_decision,governed_exists,governed_mean,instance,num_sequences
+True,828.34425104,1,0.34765625,False,True,828.34425104,bcst_hard,256
+False,2094.0,0,0.0,False,False,NA,bcst_stress_unobservable,16
+False,385.36783216000003,2,0.27734375,True,True,390.1792630400001,bfsp_hard,256
+False,754.0,0,0.0,False,False,NA,bfsp_stress_unobservable,16
+True,388.047867328,2,0.01953125,False,True,388.047867328,bged_hard,256
+False,8234.0,0,0.0,False,False,NA,bged_stress_unobservable,16
+True,335.56808483200007,1,0.29296875,False,True,335.56808483200007,bsp_hard,256
+False,834.0,0,0.0,False,False,NA,bsp_stress_unobservable,16
+False,160.0,0,0.0,False,False,NA,rocksample_transfer_hard_H5,3125
+False,150.0,0,0.0,False,False,NA,rocksample_transfer_stress_unobservable_H3,125
+True,161.0,3,0.039424,False,True,161.0,sysadmin_transfer_hard_H6,15625
+False,32.0,0,0.0,False,False,NA,sysadmin_transfer_stress_unobservable_H3,125
+False,160.0,0,0.0,False,False,NA,tiger_transfer_hard_H4,256
+False,120.0,0,0.0,False,False,NA,tiger_transfer_stress_unobservable_H2,16

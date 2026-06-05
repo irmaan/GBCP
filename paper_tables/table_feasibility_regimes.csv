@@ -1,0 +1,17 @@
+instance,num_sequences,feasible_count,feasible_fraction,oracle_feasible,oracle_mean
+bcst_easy,256,198,0.7734375,True,84.08187314529282
+bcst_hard,256,89,0.34765625,True,183.53767586240002
+bcst_stress_impossible,16,0,0.0,False,877.5
+bcst_stress_unobservable,16,0,0.0,True,29.0
+bfsp_easy,256,214,0.8359375,True,25.752846557337605
+bfsp_hard,256,71,0.27734375,True,63.98937903974401
+bfsp_stress_impossible,16,0,0.0,False,1064.5
+bfsp_stress_unobservable,16,0,0.0,True,29.0
+bged_easy,256,207,0.80859375,True,91.75142331863039
+bged_hard,256,5,0.01953125,True,195.676761182208
+bged_stress_impossible,16,0,0.0,False,1142.5
+bged_stress_unobservable,16,0,0.0,True,29.0
+bsp_easy,256,214,0.8359375,True,32.72712497231361
+bsp_hard,256,75,0.29296875,True,74.51888728640003
+bsp_stress_impossible,16,0,0.0,False,965.5
+bsp_stress_unobservable,16,0,0.0,True,29.0

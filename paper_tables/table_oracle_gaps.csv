@@ -1,0 +1,17 @@
+instance,governed_mean,oracle_mean,absolute_gap,blind_feasible,oracle_feasible
+bcst_easy,388.543883072,84.08187314529282,304.4620099267072,True,True
+bcst_hard,828.34425104,183.53767586240002,644.8065751776,True,True
+bcst_stress_impossible,2914.0,877.5,2036.5,False,False
+bcst_stress_unobservable,2094.0,29.0,2065.0,False,True
+bfsp_easy,225.55511584000004,25.752846557337605,199.80226928266245,True,True
+bfsp_hard,390.1792630400001,63.98937903974401,326.1898840002561,True,True
+bfsp_stress_impossible,1774.0,1064.5,709.5,False,False
+bfsp_stress_unobservable,754.0,29.0,725.0,False,True
+bged_easy,147.18388256000003,91.75142331863039,55.43245924136964,True,True
+bged_hard,388.047867328,195.676761182208,192.371106145792,True,True
+bged_stress_impossible,9053.0,1142.5,7910.5,False,False
+bged_stress_unobservable,11134.0,29.0,11105.0,False,True
+bsp_easy,220.39340998400002,32.72712497231361,187.6662850116864,True,True
+bsp_hard,335.56808483200007,74.51888728640003,261.0491975456,True,True
+bsp_stress_impossible,1754.0,965.5,788.5,False,False
+bsp_stress_unobservable,4979.0,29.0,4950.0,False,True

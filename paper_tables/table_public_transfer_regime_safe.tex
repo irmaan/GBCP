@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Evidence-safe public-transfer summary. Regime labels are assigned from the measured feasible fraction and oracle feasibility, not from filenames.}
+\label{tab:public_transfer_regime_safe}
+\begin{tabular}{llrrrrl}
+\toprule
+Family & Instance & Seq. & Feas. frac. & Gov. mean & Oracle mean & Evidence label \\
+\midrule
+Tiger & easy\_H4 & 256 & 0.2578 & 540.0 & 0.0 & feasible-easy \\
+Tiger & hard\_H4 & 256 & 0.0000 & 560.0 & 0.0 & blind-infeasible / oracle-feasible \\
+Tiger & stress\_unobservable\_H2 & 16 & 0.0000 & 120.0 & 0.0 & structural infeasible \\
+Tiger & stress\_impossible\_H2 & 16 & 0.0000 & 1000.0 & 1000.0 & structural infeasible \\
+RockSample & easy\_H5 & 3125 & 0.8358 & 160.0 & 52.5 & feasible-easy \\
+RockSample & hard\_H5 & 3125 & 0.0000 & 300.0 & 52.5 & blind-infeasible / oracle-feasible \\
+RockSample & stress\_unobservable\_H3 & 125 & 0.0000 & 220.0 & 47.5 & structural infeasible \\
+RockSample & stress\_impossible\_H3 & 125 & 0.0000 & 762.5 & 467.5 & structural infeasible \\
+\bottomrule
+\end{tabular}
+\end{table}

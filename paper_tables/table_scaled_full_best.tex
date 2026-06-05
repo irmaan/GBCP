@@ -1,0 +1,24 @@
+\begin{table}[h]
+\centering
+\scriptsize
+\caption{Full 12-instance scaled hard-suite summary at the best budget for each planner family. Lower score is better.}
+\label{tab:scaled_full_best}
+\begin{tabular}{l l c c c l c c c}
+\toprule
+Task & Best structured & Score & Feas. & SE & Best MCTS & Score & Feas. & SE \\
+\midrule
+\textsc{BCST}-hard-$H6$ & beam (500) & 1523.8 & 1.00 & 0.0 & MCTS (100) & 7978.0 & 0.85 & 4298.1 \\
+\textsc{BCST}-hard-$H8$ & CEM (5000) & 635.6 & 1.00 & 0.1 & MCTS (100) & 1311.7 & 1.00 & 52.0 \\
+\textsc{BCST}-hard-$H10$ & evo. (10000) & 243.9 & 1.00 & 0.1 & MCTS (500) & 701.0 & 1.00 & 92.6 \\
+\textsc{BCST}-hard-$H12$ & CEM (10000) & 127.4 & 1.00 & 0.3 & MCTS (500) & 342.9 & 1.00 & 87.4 \\
+\textsc{BGED}-hard-$H6$ & beam (100) & 10586.4 & 1.00 & 0.0 & MCTS (100) & 10630.8 & 1.00 & 5.8 \\
+\textsc{BGED}-hard-$H8$ & beam (100) & 10589.9 & 1.00 & 0.0 & MCTS (500) & 12145.7 & 1.00 & 221.2 \\
+\textsc{BGED}-hard-$H10$ & beam (100) & 10660.6 & 1.00 & 0.0 & MCTS (500) & 13266.6 & 1.00 & 58.6 \\
+\textsc{BGED}-hard-$H12$ & beam (100) & 13232.2 & 1.00 & 0.0 & MCTS (500) & 13438.6 & 1.00 & 15.8 \\
+\textsc{BSP}-hard-$H6$ & beam (500) & 583.5 & 1.00 & 0.0 & MCTS (100) & 1608.5 & 0.90 & 218.0 \\
+\textsc{BSP}-hard-$H8$ & evo. (10000) & 221.7 & 1.00 & 10.0 & MCTS (100) & 482.1 & 1.00 & 19.4 \\
+\textsc{BSP}-hard-$H10$ & CEM (5000) & 69.4 & 1.00 & 0.1 & MCTS (500) & 204.7 & 1.00 & 43.8 \\
+\textsc{BSP}-hard-$H12$ & CEM (10000) & 33.8 & 1.00 & 0.2 & MCTS (500) & 60.8 & 1.00 & 2.9 \\
+\bottomrule
+\end{tabular}
+\end{table}
